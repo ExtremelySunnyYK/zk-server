@@ -3,7 +3,7 @@ import cors from 'cors';
 
 
 import { generateProof, verifyProof, generateCallData } from "./lib/zkUtils.js";
-import errorHandler from "./utils/errorHandler.js.js";
+import errorHandler from "./utils/errorHandler.js";
 
 const app = express()
 
