@@ -1,4 +1,4 @@
-import * as snarkjs from "snarkjs";
+import * as snarkjs from "../../node_modules/snarkjs/main.js";
 import { wrongProof, wrongPublicSignals } from "../public/wrong_proof.js";
 
 // Current working directory is server/
