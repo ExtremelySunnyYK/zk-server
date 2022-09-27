@@ -87,6 +87,6 @@ app.get('/api/generate-proof', async (req, res, next) => {
 app.use(errorHandler);
 
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening on port ${port}`)
 })
